@@ -1,0 +1,43 @@
+*{
+	text-align: center;
+}
+article{
+	background-color: tomato;
+}
+
+#super{
+	background-color: aquamarine;
+}
+.lead{
+	font-size: 2em;
+}
+.strong{
+	font-weight: bold;
+}
+a[href="http://www.kitm.lt"]{
+	color: green;
+}
+a[href$="pdf"]{
+	color: silver ;
+}
+/*Links*/
+a:link{
+	color: red;
+	text-decoration: none;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color: aqua;
+}
+
+li:first-child{
+	background-color: green;
+}
+li:last-child{
+	background-color: tomato;
+}
+li:nth-child(2n+1){
+	background-color: red;
+}
