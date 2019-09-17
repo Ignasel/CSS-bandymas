@@ -1,5 +1,6 @@
-*{
-	text-align: center;
+
+html{
+	margin:50px;
 }
 article{
 	background-color: tomato;
@@ -40,4 +41,42 @@ li:last-child{
 }
 li:nth-child(2n+1){
 	background-color: red;
+}
+body{
+	font-size: 1em;
+	font-style: italic;
+	font-family: lobster;
+}
+
+article{
+	font-family: "Saira Stencil One";
+	font-size: 1em;
+	font-style: inherit;
+}
+p{
+	font-size: 1em;
+	font-weight: bold;
+	font-family: arial;
+}
+
+a:link{
+	font-family: "Dancing Script"
+}
+.fa-air-freshener{
+	color: blue;
+}
+h2.fa-air-freshener:[last-of-type]{
+	color: tomato;
+}
+
+h1, h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+article p{
+	text-align: justify;
+}
+
+p{
+	line-height: 2;
 }
